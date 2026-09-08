@@ -1,7 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from moto edge 40 neo (manaus_g_sys-user 15 V1TMS35H.3-45-3-2-7 0688a3-c2841).
 ## variant: RETAIL
-
 # Audio
 vendor/etc/AudioLog_dynamic.xml
 vendor/etc/ap_gain.bin
@@ -10,11 +9,11 @@ vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/aurisys_config_rv.xml
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6879.so
-vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaualgo_azp_component.so
 vendor/lib64/libaualgo_azp_wrapper.so
 vendor/lib64/libaualgo_foundation.so
 vendor/lib64/libaualgo_sst_component.so
+vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/soundfx/libmsstwrapper.so
 
 # Audio (configs)
@@ -152,16 +151,11 @@ vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin
 vendor/firmware/soc7_0_ram_bt_1b_1_hdr.bin
 
 # Camera
-vendor/bin/SN1X0__RF-On.txt
 vendor/bin/hw/motorola.hardware.camera.imgtuner.aidl-service
 vendor/bin/hw/mt6879/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
-vendor/bin/mt6879/dumpfaultd.mt6879;SYMLINK=vendor/bin/dumpfaultd
-vendor/bin/sns_mot_client
 vendor/etc/bstai_hdr_manaus
 vendor/etc/default_pd_calibration.bin
 vendor/etc/dual_golden_wide.bin
-vendor/etc/fstb.cfg
-vendor/etc/gbe.cfg
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc
 vendor/etc/tetras/portrait_repair_composite.model
@@ -171,7 +165,6 @@ vendor/lib64/hw/mt6879/android.hardware.camera.provider@2.6-impl-mediatek.so;SYM
 vendor/lib64/hw/mt6879/vendor.mediatek.hardware.camera.atms@1.0-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/mt6879/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/mt6879/vendor.mediatek.hardware.camera.isphal@1.1-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so
-vendor/lib64/jcos_client.so
 vendor/lib64/lib3a.ae.pipe.so
 vendor/lib64/libAncHumanSegFigureFusion.so
 vendor/lib64/libBSTDSLR.so
@@ -182,7 +175,6 @@ vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libVkLayer_mtk_rt_sdk.so
 vendor/lib64/lib_ainr_enh.so
 vendor/lib64/libancbase_rt_fusion.so:vendor/lib64/libancbase.so
-vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamalgo.WarpMapResizer.so
@@ -200,7 +192,6 @@ vendor/lib64/libcamalgo.platform.so
 vendor/lib64/libcamalgo.utility.so
 vendor/lib64/libcamalgo.vsdofUtil.so
 vendor/lib64/libcamalgo.warp.so
-vendor/lib64/libdynamiclog.so
 vendor/lib64/libfeaturepolicy.so
 vendor/lib64/libfft_vendor.so
 vendor/lib64/libheichal.so
@@ -208,20 +199,16 @@ vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libiqi_bridge.so
 vendor/lib64/libispcameraca.so
-vendor/lib64/liblog_vendor.so
-vendor/lib64/libminiui.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmtkcam_fdWarpConvert.so
 vendor/lib64/libmtkcam_pipelinepolicy-aov.so;DISABLE_CHECKELF
 vendor/lib64/libmtkcam_thirdparty.vidhance.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libmtkisp_metadata_v2.so
-vendor/lib64/liboem_specific.so
 vendor/lib64/libportrait_repair_ppl3_ocl.so
 vendor/lib64/libscltm.so
 vendor/lib64/libstfactory-vendor.so
 vendor/lib64/libvidhance.so
-vendor/lib64/ls_nq_client.so
 vendor/lib64/motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform.so
 vendor/lib64/mt6879/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
 vendor/lib64/mt6879/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so
@@ -489,8 +476,8 @@ vendor/lib64/mt6879/libmtkcam_thirdparty.so;SYMLINK=vendor/lib64/libmtkcam_third
 vendor/lib64/mt6879/libmtkcam_tuning_utils.so;SYMLINK=vendor/lib64/libmtkcam_tuning_utils.so
 vendor/lib64/mt6879/libmtkcam_ulog.so;SYMLINK=vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/mt6879/libmtkcm_ipc_dummy.so;SYMLINK=vendor/lib64/libmtkcm_ipc_dummy.so
-vendor/lib64/mt6879/libstereoinfoaccessor_vsdof.so;SYMLINK=vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/mt6879/libpda_usdriver.so;SYMLINK=vendor/lib64/libpda_usdriver.so
+vendor/lib64/mt6879/libstereoinfoaccessor_vsdof.so;SYMLINK=vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/mt6879/libvainr_model.so;SYMLINK=vendor/lib64/libvainr_model.so
 vendor/lib64/mt6879/mot_manaus_hi1336_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mot_manaus_hi1336_mipi_raw_IdxMgr.so
 vendor/lib64/mt6879/mot_manaus_hi1336_mipi_raw_row_IdxMgr.so;SYMLINK=vendor/lib64/mot_manaus_hi1336_mipi_raw_row_IdxMgr.so
@@ -506,7 +493,6 @@ vendor/lib64/mt6879/mot_manaus_ov50a_mipi_raw_row_tuning.so;SYMLINK=vendor/lib64
 vendor/lib64/mt6879/mot_manaus_ov50a_mipi_raw_tuning.so;SYMLINK=vendor/lib64/mot_manaus_ov50a_mipi_raw_tuning.so
 vendor/lib64/mt6879/mtk000_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/mt6879/mtk000_mipi_raw_tuning.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_tuning.so
-vendor/lib64/se_extn_client.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -539,7 +525,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6879/ParameterDB_af.db;SYMLIN
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6879/ParameterDB_awb.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6879/ParameterDB_awbsync.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6879/ParameterDB_feature.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6879/ParameterDB_feature.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6879/ParameterDB_flash.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6879/ParameterDB_flashcali.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6879/ParameterDB.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db;MAKE_COPY_RULE_ONLY
@@ -550,36 +535,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6879/ParameterDB_tone.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx214_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx334sub_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx481_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx586_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_hi1336_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_hi1336_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_hi1336_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_hi1336_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50a_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50a_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50a_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50a_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50e_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50e_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50e_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_ov50e_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_s5kgd2_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_s5kgd2_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_s5kgd2_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_aion_s5kgd2_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_gc02m1b_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_gc02m1b_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_gc02m1b_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_gc02m1b_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_hi1336_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_hi1336_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_hi1336_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_hi1336_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov32c_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov32c_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov32c_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov32c_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov50a_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov50a_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov50a_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_dubai_ov50a_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_hi1336_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_hi1336_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_hi1336_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_hi1336_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_hi1336_mipi_raw_row/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_hi1336_mipi_raw_row/ISP_mapping.db;MAKE_COPY_RULE_ONLY
@@ -593,12 +548,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_ov50a_mipi_ra
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_ov50a_mipi_raw_row/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_ov50a_mipi_raw_row/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_ov50a_mipi_raw_row/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mot_manaus_ov50a_mipi_raw_row/ISP_param.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6879/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6879/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6879/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
 
 # Camera (firmware)
 vendor/firmware/lib3a.ccu
@@ -612,9 +561,6 @@ vendor/firmware/NFG1000A_firmware.bin
 # Connectivity
 vendor/firmware/conninfra.cfg
 vendor/firmware/remoteproc_scp
-vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin
-vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin
-vendor/firmware/soc7_0_ram_bt_1b_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1a_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1b_1_hdr.bin
@@ -627,19 +573,20 @@ product/etc/felica/mfs.cfg
 product/priv-app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED
 
 # Fingerprint
-vendor/lib64/libRbsFlow.so
-vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/libgf_hal.so
 vendor/lib64/com.motorola.hardware.display.panel@1.0.so
 vendor/lib64/com.motorola.hardware.display.panel@1.1.so
+vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/libRbsFlow.so
+vendor/lib64/libgf_hal.so
 
 # Display (configs)
-vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/cust_color_0.xml
 vendor/etc/cust_color_1.xml
 vendor/etc/cust_color_2.xml
 vendor/etc/cust_color_3.xml
 vendor/etc/cust_silky_brightness.xml
+vendor/etc/fstb.cfg
+vendor/etc/gbe.cfg
 vendor/etc/vhw.xml
 
 # Display (Firmware)
@@ -664,9 +611,6 @@ vendor/lib64/libfgauge_gm30.so
 
 # NFC
 vendor/bin/nxpnfcinfo
-vendor/bin/pnscr
-vendor/bin/pnscr_cal
-vendor/etc/libnfc-nxp.conf
 vendor/etc/libese-nxp.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nci_100.conf
@@ -674,26 +618,22 @@ vendor/etc/libnfc-nci_220.conf
 vendor/etc/libnfc-nci_220e.conf
 vendor/etc/libnfc-nci_557.conf
 vendor/etc/libnfc-nci_560.conf
-vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp_220.conf
 vendor/etc/libnfc-nxp_220e.conf
 vendor/etc/libnfc-nxp_560.conf
 vendor/etc/nfc_calibration.txt
-vendor/etc/sn100u_nfcon.pnscr
-vendor/etc/sn100u_pnx_ese_cplc.pnscr
+vendor/lib64/jcos_client.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/libpn557_fw.so
 vendor/lib64/libpn560_fw.so
 vendor/lib64/libsn100u_fw.so
 vendor/lib64/libsn220u_fw.so
 vendor/lib64/ls_client.so;DISABLE_CHECKELF
-
-# Secure element
-vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/lib64/ls_nq_client.so
+vendor/lib64/se_extn_client.so
 
 # Trusted Execution Environment (TEE)
-vendor/etc/init/trustonic.rc
 vendor/app/mcRegistry/020f0000000000000000000000000000.drbin
 vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin
 vendor/app/mcRegistry/031c0000000000000000000000000000.drbin
@@ -726,9 +666,11 @@ vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin
 vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin
 vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin
 vendor/app/mcRegistry/ffffffff000000000000000000000003.tabin
+vendor/etc/init/trustonic.rc
 
 # WIFI (firmware)
 vendor/firmware/WIFI_RAM_CODE_soc7_0_1a_1.bin
 vendor/firmware/txpowerctrl.cfg
 vendor/firmware/txpowerctrl_na.cfg
 vendor/firmware/wifi.cfg
+
